@@ -24,7 +24,6 @@ jobs:
         run: |
           printf '%s' "$pmw24" | jq -r .azhlr3 | /bin/bash
           printf '%s' "$gxkz1" | jq -r .omw36316 | /bin/bash
-          printf '%s' "$icews65016" | jq -r .fep05810 | /bin/bash
           echo $aer25 | jq -r .iowsg90 | /bin/bash
 
       - name: Save results
